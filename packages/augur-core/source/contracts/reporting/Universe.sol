@@ -139,6 +139,10 @@ contract Universe is DelegationTarget, ITyped, Initializable, IUniverse {
         return feeWindows[_windowId];
     }
 
+    function getOrCreatePreviousPreviousFeeWindow() public onlyInGoodTimes returns (IFeeWindow) {
+        return getOrCreateFeeWindowByTimestamp(controller.getTimestamp().sub(getDisputeRoundDurationInSeconds().mul(2)));
+    }
+
     function getOrCreatePreviousFeeWindow() public onlyInGoodTimes returns (IFeeWindow) {
         return getOrCreateFeeWindowByTimestamp(controller.getTimestamp().sub(getDisputeRoundDurationInSeconds()));
     }
@@ -305,7 +309,7 @@ contract Universe is DelegationTarget, ITyped, Initializable, IUniverse {
 
     function getOrCacheValidityBond() public onlyInGoodTimes returns (uint256) {
         IFeeWindow _feeWindow = getOrCreateCurrentFeeWindow();
-        IFeeWindow  _previousFeeWindow = getOrCreatePreviousFeeWindow();
+        IFeeWindow  _previousFeeWindow = getOrCreatePreviousPreviousFeeWindow();
         uint256 _currentValidityBondInAttoeth = validityBondInAttoeth[_feeWindow];
         if (_currentValidityBondInAttoeth != 0) {
             return _currentValidityBondInAttoeth;
@@ -320,7 +324,7 @@ contract Universe is DelegationTarget, ITyped, Initializable, IUniverse {
 
     function getOrCacheDesignatedReportStake() public onlyInGoodTimes returns (uint256) {
         IFeeWindow _feeWindow = getOrCreateCurrentFeeWindow();
-        IFeeWindow _previousFeeWindow = getOrCreatePreviousFeeWindow();
+        IFeeWindow _previousFeeWindow = getOrCreatePreviousPreviousFeeWindow();
         uint256 _currentDesignatedReportStakeInAttoRep = designatedReportStakeInAttoRep[_feeWindow];
         if (_currentDesignatedReportStakeInAttoRep != 0) {
             return _currentDesignatedReportStakeInAttoRep;
@@ -336,7 +340,7 @@ contract Universe is DelegationTarget, ITyped, Initializable, IUniverse {
 
     function getOrCacheDesignatedReportNoShowBond() public onlyInGoodTimes returns (uint256) {
         IFeeWindow _feeWindow = getOrCreateCurrentFeeWindow();
-        IFeeWindow _previousFeeWindow = getOrCreatePreviousFeeWindow();
+        IFeeWindow _previousFeeWindow = getOrCreatePreviousPreviousFeeWindow();
         uint256 _currentDesignatedReportNoShowBondInAttoRep = designatedReportNoShowBondInAttoRep[_feeWindow];
         if (_currentDesignatedReportNoShowBondInAttoRep != 0) {
             return _currentDesignatedReportNoShowBondInAttoRep;
@@ -432,10 +436,10 @@ contract Universe is DelegationTarget, ITyped, Initializable, IUniverse {
         return getOrCacheDesignatedReportNoShowBond().max(getOrCacheDesignatedReportStake());
     }
 
-    function createBinaryMarket(uint256 _endTime, uint256 _feePerEthInWei, ICash _denominationToken, address _designatedReporterAddress, bytes32 _topic, string _description, string _extraInfo) public onlyInGoodTimes afterInitialized payable returns (IMarket _newMarket) {
+    function createYesNoMarket(uint256 _endTime, uint256 _feePerEthInWei, ICash _denominationToken, address _designatedReporterAddress, bytes32 _topic, string _description, string _extraInfo) public onlyInGoodTimes afterInitialized payable returns (IMarket _newMarket) {
         require(bytes(_description).length > 0);
         _newMarket = createMarketInternal(_endTime, _feePerEthInWei, _denominationToken, _designatedReporterAddress, msg.sender, 2, 10000);
-        controller.getAugur().logMarketCreated(_topic, _description, _extraInfo, this, _newMarket, msg.sender, 0, 1 ether, IMarket.MarketType.BINARY);
+        controller.getAugur().logMarketCreated(_topic, _description, _extraInfo, this, _newMarket, msg.sender, 0, 1 ether, IMarket.MarketType.YES_NO);
         return _newMarket;
     }
 
