@@ -975,9 +975,9 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-augur-core@1.0.0-13:
-  version "1.0.0-13"
-  resolved "https://registry.yarnpkg.com/augur-core/-/augur-core-1.0.0-13.tgz#d936f8195e5372778e74ecae355cb046903055c2"
+augur-core@1.0.0-11:
+  version "1.0.0-11"
+  resolved "https://registry.yarnpkg.com/augur-core/-/augur-core-1.0.0-11.tgz#01ecdf2078eac9b2319c411efbf1d3408f1ca3ce"
   dependencies:
     "@types/chai" "4.0.4"
     "@types/chai-as-promised" "7.1.0"
@@ -1036,30 +1036,6 @@ augur.js@4.11.0-28:
     uuid "3.0.0"
     uuid-parse "1.0.0"
 
-augur.js@4.12.0-6:
-  version "4.12.0-6"
-  resolved "https://registry.yarnpkg.com/augur.js/-/augur.js-4.12.0-6.tgz#724b1610e97e3e149774f83f0cc927cb590ba677"
-  dependencies:
-    async "1.5.2"
-    augur-core "1.0.0-13"
-    bignumber.js "6.0.0"
-    clone "2.1.1"
-    columnify "1.5.4"
-    ethereumjs-blockstream "4.0.1"
-    ethrpc "5.3.6"
-    event-emitter "0.3.5"
-    immutable-delete "1.1.0"
-    keccak "1.2.0"
-    lodash "4.17.10"
-    options-parser "0.4.0"
-    parrotsay-api "0.1.1"
-    rimraf "2.6.2"
-    secp256k1 "3.5.0"
-    secure-random "1.1.1"
-    speedomatic "2.1.4"
-    uuid "3.0.0"
-    uuid-parse "1.0.0"
-
 author-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
@@ -1098,8 +1074,8 @@ autoprefixer@^7.1.2:
     postcss-value-parser "^3.2.3"
 
 aws-sdk@^2.9.0:
-  version "2.252.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.252.1.tgz#4ce45b16dc408883e20a564bd86270c67f25bb60"
+  version "2.253.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.253.1.tgz#5ca10d7115562fc40adedc35c4d99703f8fe5f9c"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"

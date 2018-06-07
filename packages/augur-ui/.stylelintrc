@@ -1,7 +1,7 @@
 {
   "plugins": [
     "stylelint-order",
-    "./node_modules/stylelint-no-browser-hacks/lib"
+    "../../node_modules/stylelint-no-browser-hacks/lib"
   ],
   "extends": "stylelint-config-standard",
   "rules": {
