@@ -5,5 +5,5 @@
 set -e #exit immediately on `exit status > 0` of any command
 set -o pipefail #exit immediately on `exit status > 0` for pipes
 
-# npm run lint;
-# npm run test;
+lerna run lint;
+lerna run test -- --reporter min;
