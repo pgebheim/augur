@@ -1,11 +1,13 @@
 {
-  "name": "augur",
-  "private": true,
-  "version": "6.0.0-0",
-  "description": "Augur Top-Level Monorepo",
-  "author": "The Augur Developers <team@augur.net>",
-	"devDependencies": {
-		"lerna": "^2.11.0"
-	},
-  "workspaces": ["packages/*"]
+ "name": "augur",
+ "private": true,
+ "version": "6.0.0-0",
+ "description": "Augur Top-Level Monorepo",
+ "author": "The Augur Developers <team@augur.net>",
+ "devDependencies": {
+  "lerna": "^2.11.0"
+ },
+ "workspaces": [
+  "packages/*"
+ ]
 }
