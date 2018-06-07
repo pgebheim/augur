@@ -1,0 +1,14 @@
+{
+  "augurDbPath": "./augur.db",
+  "websocketConfigs": {
+    "pingMs": 12000,
+    "ws": {
+      "port": 9001
+    },
+    "wss": {
+      "port": 9002,
+      "certificateFile": "certs/ssl-cert-snakeoil.pem",
+      "certificateKeyFile": "certs/ssl-cert-snakeoil.key"
+    }
+  }
+}
