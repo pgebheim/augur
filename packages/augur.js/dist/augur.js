@@ -789,7 +789,7 @@ module.exports = {
     8: 10000
   },
 
-  CREATE_BINARY_MARKET_GAS: "0x5b8d80",
+  CREATE_YES_NO_MARKET_GAS: "0x5b8d80",
   CREATE_SCALAR_MARKET_GAS: "0x5b8d80",
   CREATE_CATEGORICAL_MARKET_GAS: "0x5e3918",
 
@@ -841,22 +841,22 @@ module.exports={
   "TradingEscapeHatch": "0xb69761b25046ba3fbdb38fbaa6dad8fbfd62cbd2"
  },
  "4": {
-  "Controller": "0x2b78e749a21cac385508fdd4b9a65ea0f5023cd5",
-  "Universe": "0x9bed8e86cfbe6959388fe886f01f7aa836047424",
-  "Augur": "0x910ef9cf50c25dc119a4e006a3516ddf39993f3d",
-  "LegacyReputationToken": "0x5d39afb33251bbeee43be37fb2c7a3fb49d9a902",
-  "CancelOrder": "0x6e612632027ef712dc5742caac24c1d12a02a328",
-  "Cash": "0xbb0bd3799decca37d32534ff5164f60cebc76ee3",
-  "ClaimTradingProceeds": "0x9257cbec14e834739214650a9bfd34d5b20666a5",
-  "CompleteSets": "0x37ae60c9e105b799e4e8b08483cad5262ba6f1ba",
-  "CreateOrder": "0x4b73a6e8da817778947cac5214dbf9b52ad0e024",
-  "FillOrder": "0x3768d00f4f7c3fcbf31f5831e076156d172afc25",
-  "Order": "0x7d81c4e37a4b2a4db583751c529499f2b4cff286",
-  "Orders": "0xa76c3b04489ccb0b9db47fcd5243efdda61b592b",
-  "OrdersFetcher": "0xeadca941c2bfaee09c771918ca7d5c8065a7efbe",
-  "ShareToken": "0xc007881abf7f689d666edba8e037c1dee2f4631c",
-  "Trade": "0x65c938a9b84c2d2ebac7e65df8b4eb494c7cf1bf",
-  "TradingEscapeHatch": "0xa59c97efa8f00051d6c942c1b75dcd614286d605"
+  "Controller": "0x44f3731d51ccf6d22d00184bf537e29533f43e72",
+  "Universe": "0xf41b06f238d88615e19d9206f2bb2230bae00765",
+  "Augur": "0xc5c16dde62551bb6accec358e0e46db82fe5743a",
+  "LegacyReputationToken": "0x631355348dbcefbf8604e346b3478621891eae3a",
+  "CancelOrder": "0xb323ef3d53a58a68875ed7271a2539104366ddca",
+  "Cash": "0xe64689b422a0328841298ddc195f1c3bc27a6d51",
+  "ClaimTradingProceeds": "0x6a92e6867ec9ed5f11619d3994ae8f2abc86d8a5",
+  "CompleteSets": "0x38a507325cc915a89c6b5388e44da6d2785b6441",
+  "CreateOrder": "0x1c693f20ac6c967ea3ff967cc34f2f9a3cd0982f",
+  "FillOrder": "0x9e399fba4f20032abc7d009f6349199e2adae9fc",
+  "Order": "0x61dbb4579c378e1db3f11355c6c19f4badbc0a13",
+  "Orders": "0x176703e837c329f5988cf22df3a85c5856528069",
+  "OrdersFetcher": "0x4caca3c781f613f312225d7e1c52b2a4c1b59999",
+  "ShareToken": "0x5a81f682ab69aeb697bcf21f16d94cfacdc0d491",
+  "Trade": "0xd2387a513cdbe1078ac15ba0f48d35acbda7cdf9",
+  "TradingEscapeHatch": "0x7c472e907b2a3bb332809c111191aa4f325889d2"
  },
  "8995": {
   "Controller": "0xfcaf25bf38e7c86612a25ff18cb8e09ab07c9885",
@@ -896,39 +896,39 @@ module.exports={
  },
  "22346": {
   "Controller": "0xfcaf25bf38e7c86612a25ff18cb8e09ab07c9885",
-  "Universe": "0xa0e4dc62cb7429825f6e1b49841a0445b37152bb",
+  "Universe": "0xf7a6dff0f7777cdbf2d1c3b99e0ed08f09d49818",
   "Augur": "0x25ff5dc79a7c4e34254ff0f4a19d69e491201dd3",
-  "LegacyReputationToken": "0xce77d3c706e0fe6da5d71b1249756b5ea0d77202",
-  "CancelOrder": "0xac80704c80ab83512b48314bdfa82f79923c2fbe",
-  "Cash": "0xd3a7c274e3e7b1990a9c23bec98adc2b7c448ac5",
-  "ClaimTradingProceeds": "0x8bdad8ee0b47e2e7294a5b8b8b74ea3968f4a177",
-  "CompleteSets": "0x905419e7a1f96a973ab8988ba19c84135c6f7122",
-  "CreateOrder": "0x6c38ab26f860380a8a2367c79dda3a54afef4b1e",
-  "FillOrder": "0xdd1c4919217e409abeb699e8171a5e92c2e506fa",
-  "Order": "0xf3bcabd8fae29f75be271ebe2499edb4c7c139b7",
-  "Orders": "0x6749e370e7b1955ffa924f4f75f5f12653c7512c",
-  "OrdersFetcher": "0x0d676967088088546837accf52a72bbd5066ffee",
-  "ShareToken": "0x97ba58dbe58898f2b669c56496f46f638dc322d4",
-  "Trade": "0x6e968fe21894a35ba59ee8ec6f60ea0ddc3a59e5",
-  "TradingEscapeHatch": "0x56d32d583ee21e748103b029fd97621fde92248d"
+  "LegacyReputationToken": "0xd11222c7c12da25ed9b153234084ad02235297aa",
+  "CancelOrder": "0x6226649431c4180a390f810bfd604b50eb68d9c5",
+  "Cash": "0xd1102fbe361acf2c54f572caca4b928350555f40",
+  "ClaimTradingProceeds": "0xdd1c4919217e409abeb699e8171a5e92c2e506fa",
+  "CompleteSets": "0x2adaeaf11753515a37a3d50cecb636cf72ae4854",
+  "CreateOrder": "0x5e9529c5c5ac0a7e7258a18782bd31a148c55f4c",
+  "FillOrder": "0x635c8ef61a07dfe49b683d1a34da3547b0d6705e",
+  "Order": "0xb8da5fa6c6f9b55f1c9fa09e26a24d3675dbc36e",
+  "Orders": "0xd28d97d4ea8968e90ec90ab0f43df4ade0c9f611",
+  "OrdersFetcher": "0x7a8f8e48d4cc990bbd8e088fb027e850486e8e0c",
+  "ShareToken": "0x204cdd1689c8a4da426894c150a0fa672a2eab4c",
+  "Trade": "0xce77d3c706e0fe6da5d71b1249756b5ea0d77202",
+  "TradingEscapeHatch": "0xd3a7c274e3e7b1990a9c23bec98adc2b7c448ac5"
  },
  "32346": {
   "Controller": "0xfcaf25bf38e7c86612a25ff18cb8e09ab07c9885",
-  "Universe": "0xa0e4dc62cb7429825f6e1b49841a0445b37152bb",
+  "Universe": "0x04252fa3b79b7626ffc87144dafeed0838eecd59",
   "Augur": "0x25ff5dc79a7c4e34254ff0f4a19d69e491201dd3",
-  "LegacyReputationToken": "0xf780694a2ea833fc85131b9de8af4e71f49e3e12",
-  "CancelOrder": "0xf5f22562ec76f33a9f114e0ca9e3916c383df041",
-  "Cash": "0x95e6d12a0ca50ead152d93f8b79beb23bc4a054b",
-  "ClaimTradingProceeds": "0x635c8ef61a07dfe49b683d1a34da3547b0d6705e",
-  "CompleteSets": "0xf3bcabd8fae29f75be271ebe2499edb4c7c139b7",
-  "CreateOrder": "0x3c6721551c2ba3973560aef3e11d34ce05db4047",
-  "FillOrder": "0xd11222c7c12da25ed9b153234084ad02235297aa",
-  "Order": "0xb8da5fa6c6f9b55f1c9fa09e26a24d3675dbc36e",
-  "Orders": "0x00bee9d82da7036c9c660e7ae18c4f5e2f072967",
-  "OrdersFetcher": "0x2ef25877b254d6391b843df25dd7a8b0a243bee9",
-  "ShareToken": "0xac80704c80ab83512b48314bdfa82f79923c2fbe",
-  "Trade": "0x2adaeaf11753515a37a3d50cecb636cf72ae4854",
-  "TradingEscapeHatch": "0xdfef677bf5f66f3eeff481a587c04cb58e95b92a"
+  "LegacyReputationToken": "0xf5f22562ec76f33a9f114e0ca9e3916c383df041",
+  "CancelOrder": "0x905419e7a1f96a973ab8988ba19c84135c6f7122",
+  "Cash": "0x4e61185d7f125b84ac4a1837a0688d2bb58e8491",
+  "ClaimTradingProceeds": "0x2adaeaf11753515a37a3d50cecb636cf72ae4854",
+  "CompleteSets": "0xd11222c7c12da25ed9b153234084ad02235297aa",
+  "CreateOrder": "0xebddb8f1ee6a3a041dba3a236b3d36095f96fe22",
+  "FillOrder": "0x5e9529c5c5ac0a7e7258a18782bd31a148c55f4c",
+  "Order": "0x2ebd326b3830297fd4cfb6b8b2c1d967a51dfdc6",
+  "Orders": "0xd3a7c274e3e7b1990a9c23bec98adc2b7c448ac5",
+  "OrdersFetcher": "0x80f8daa435a9ab4b1802ba56fe7e0abd0f8ab3d3",
+  "ShareToken": "0xf3bcabd8fae29f75be271ebe2499edb4c7c139b7",
+  "Trade": "0x204cdd1689c8a4da426894c150a0fa672a2eab4c",
+  "TradingEscapeHatch": "0x021076fb9adafcf83869435f9d72a5873869b4ad"
  }
 }
 },{}],32:[function(require,module,exports){
@@ -1009,7 +1009,7 @@ module.exports.reloadAddresses = function (callback) {
 },{"../utils/read-json-file":147,"./addresses":31,"./generate-abi-map":32,"./upload-block-numbers":34,"augur-core":151}],34:[function(require,module,exports){
 module.exports={
   "3": 2991871,
-  "4": 2373048,
+  "4": 2418569,
   "8995": 0,
   "12346": 113,
   "22346": 12,
@@ -1026,56 +1026,6 @@ function calculateNumTicks(tickSize, minPrice, maxPrice) {
 
 module.exports = calculateNumTicks;
 },{"bignumber.js":153}],36:[function(require,module,exports){
-"use strict";
-
-var assign = require("lodash").assign;
-var immutableDelete = require("immutable-delete");
-var speedomatic = require("speedomatic");
-var getMarketCreationCost = require("./get-market-creation-cost");
-var getMarketFromCreateMarketReceipt = require("./get-market-from-create-market-receipt");
-var api = require("../api");
-var encodeTag = require("../format/tag/encode-tag");
-var constants = require("../constants");
-
-/**
- * @param {Object} p Parameters object.
- * @param {string} p.universe Universe on which to create this market.
- * @param {number} p._endTime Market expiration timestamp, in seconds.
- * @param {string=} p._feePerEthInWei Amount of wei per ether settled that goes to the market creator, as a base-10 string.
- * @param {string} p._denominationToken Ethereum address of the token used as this market's currency.
- * @param {string} p._designatedReporterAddress Ethereum address of this market's designated reporter.
- * @param {string} p._topic The topic (category) to which this market belongs, as a UTF8 string.
- * @param {string} p._description Description of the market, as a UTF8 string.
- * @param {Object=} p._extraInfo Extra info which will be converted to JSON and logged to the chain in the CreateMarket event.
- * @param {{signer: buffer|function, accountType: string}=} p.meta Authentication metadata for raw transactions.
- * @param {function} p.onSent Called if/when the createBinaryMarket transaction is broadcast to the network.
- * @param {function} p.onSuccess Called if/when the createBinaryMarket transaction is sealed and confirmed.
- * @param {function} p.onFailed Called if/when the createBinaryMarket transaction fails.
- */
-function createBinaryMarket(p) {
-  getMarketCreationCost({ universe: p.universe }, function (err, marketCreationCost) {
-    if (err) return p.onFailed(err);
-    var createBinaryMarketParams = assign({}, immutableDelete(p, "universe"), {
-      tx: assign({
-        to: p.universe,
-        value: speedomatic.fix(marketCreationCost.etherRequiredToCreateMarket, "hex"),
-        gas: constants.CREATE_BINARY_MARKET_GAS
-      }, p.tx),
-      _topic: encodeTag(p._topic),
-      _extraInfo: JSON.stringify(p._extraInfo || {}),
-      onSuccess: function onSuccess(res) {
-        getMarketFromCreateMarketReceipt(res.hash, function (err, marketId) {
-          if (err) return p.onFailed(err);
-          p.onSuccess(assign({}, res, { callReturn: marketId }));
-        });
-      }
-    });
-    api().Universe.createBinaryMarket(createBinaryMarketParams);
-  });
-}
-
-module.exports = createBinaryMarket;
-},{"../api":7,"../constants":30,"../format/tag/encode-tag":62,"./get-market-creation-cost":40,"./get-market-from-create-market-receipt":41,"immutable-delete":374,"lodash":417,"speedomatic":489}],37:[function(require,module,exports){
 "use strict";
 
 var assign = require("lodash").assign;
@@ -1130,7 +1080,7 @@ function createCategoricalMarket(p) {
 }
 
 module.exports = createCategoricalMarket;
-},{"../api":7,"../constants":30,"../format/tag/encode-tag":62,"./get-market-creation-cost":40,"./get-market-from-create-market-receipt":41,"immutable-delete":374,"lodash":417,"speedomatic":489}],38:[function(require,module,exports){
+},{"../api":7,"../constants":30,"../format/tag/encode-tag":62,"./get-market-creation-cost":40,"./get-market-from-create-market-receipt":41,"immutable-delete":374,"lodash":417,"speedomatic":489}],37:[function(require,module,exports){
 "use strict";
 
 var assign = require("lodash").assign;
@@ -1188,7 +1138,57 @@ function createScalarMarket(p) {
 }
 
 module.exports = createScalarMarket;
-},{"../api":7,"../constants":30,"../format/tag/encode-tag":62,"./calculate-num-ticks":35,"./get-market-creation-cost":40,"./get-market-from-create-market-receipt":41,"immutable-delete":374,"lodash":417,"speedomatic":489}],39:[function(require,module,exports){
+},{"../api":7,"../constants":30,"../format/tag/encode-tag":62,"./calculate-num-ticks":35,"./get-market-creation-cost":40,"./get-market-from-create-market-receipt":41,"immutable-delete":374,"lodash":417,"speedomatic":489}],38:[function(require,module,exports){
+"use strict";
+
+var assign = require("lodash").assign;
+var immutableDelete = require("immutable-delete");
+var speedomatic = require("speedomatic");
+var getMarketCreationCost = require("./get-market-creation-cost");
+var getMarketFromCreateMarketReceipt = require("./get-market-from-create-market-receipt");
+var api = require("../api");
+var encodeTag = require("../format/tag/encode-tag");
+var constants = require("../constants");
+
+/**
+ * @param {Object} p Parameters object.
+ * @param {string} p.universe Universe on which to create this market.
+ * @param {number} p._endTime Market expiration timestamp, in seconds.
+ * @param {string=} p._feePerEthInWei Amount of wei per ether settled that goes to the market creator, as a base-10 string.
+ * @param {string} p._denominationToken Ethereum address of the token used as this market's currency.
+ * @param {string} p._designatedReporterAddress Ethereum address of this market's designated reporter.
+ * @param {string} p._topic The topic (category) to which this market belongs, as a UTF8 string.
+ * @param {string} p._description Description of the market, as a UTF8 string.
+ * @param {Object=} p._extraInfo Extra info which will be converted to JSON and logged to the chain in the CreateMarket event.
+ * @param {{signer: buffer|function, accountType: string}=} p.meta Authentication metadata for raw transactions.
+ * @param {function} p.onSent Called if/when the createYesNoMarket transaction is broadcast to the network.
+ * @param {function} p.onSuccess Called if/when the createYesNoMarket transaction is sealed and confirmed.
+ * @param {function} p.onFailed Called if/when the createYesNoMarket transaction fails.
+ */
+function createYesNoMarket(p) {
+  getMarketCreationCost({ universe: p.universe }, function (err, marketCreationCost) {
+    if (err) return p.onFailed(err);
+    var createYesNoMarketParams = assign({}, immutableDelete(p, "universe"), {
+      tx: assign({
+        to: p.universe,
+        value: speedomatic.fix(marketCreationCost.etherRequiredToCreateMarket, "hex"),
+        gas: constants.CREATE_YES_NO_MARKET_GAS
+      }, p.tx),
+      _topic: encodeTag(p._topic),
+      _extraInfo: JSON.stringify(p._extraInfo || {}),
+      onSuccess: function onSuccess(res) {
+        getMarketFromCreateMarketReceipt(res.hash, function (err, marketId) {
+          if (err) return p.onFailed(err);
+          p.onSuccess(assign({}, res, { callReturn: marketId }));
+        });
+      }
+    });
+    api().Universe.createYesNoMarket(createYesNoMarketParams);
+  });
+}
+
+module.exports = createYesNoMarket;
+},{"../api":7,"../constants":30,"../format/tag/encode-tag":62,"./get-market-creation-cost":40,"./get-market-from-create-market-receipt":41,"immutable-delete":374,"lodash":417,"speedomatic":489}],39:[function(require,module,exports){
 "use strict";
 
 /** Type definition for MarketCreationCostBreakdown.
@@ -1308,14 +1308,14 @@ module.exports = getMarketFromCreateMarketReceipt;
 "use strict";
 
 module.exports = {
-  createBinaryMarket: require("./create-binary-market"),
+  createYesNoMarket: require("./create-yes-no-market"),
   createCategoricalMarket: require("./create-categorical-market"),
   createScalarMarket: require("./create-scalar-market"),
   getMarketCreationCost: require("./get-market-creation-cost"),
   getMarketCreationCostBreakdown: require("./get-market-creation-cost-breakdown"),
   getMarketFromCreateMarketReceipt: require("./get-market-from-create-market-receipt")
 };
-},{"./create-binary-market":36,"./create-categorical-market":37,"./create-scalar-market":38,"./get-market-creation-cost":40,"./get-market-creation-cost-breakdown":39,"./get-market-from-create-market-receipt":41}],43:[function(require,module,exports){
+},{"./create-categorical-market":36,"./create-scalar-market":37,"./create-yes-no-market":38,"./get-market-creation-cost":40,"./get-market-creation-cost-breakdown":39,"./get-market-from-create-market-receipt":41}],43:[function(require,module,exports){
 "use strict";
 
 var isFunction = require("../utils/is-function");
@@ -2086,10 +2086,10 @@ module.exports = getMarketsInCategory;
  * @typedef {Object} MarketInfo
  * @property {string} id Address of a market, as a hexadecimal string.
  * @property {string} universe Address of a universe, as a hexadecimal string.
- * @property {string} type Type of market ("binary", "categorical", or "scalar").
+ * @property {string} type Type of market ("yesNo", "categorical", or "scalar").
  * @property {number} numOutcomes Total possible outcomes for the market.
- * @property {number} minPrice Minimum price allowed for a share on a market, in ETH. For binary & categorical markets, this is 0 ETH. For scalar markets, this is the bottom end of the range set by the market creator.
- * @property {number} maxPrice Maximum price allowed for a share on a market, in ETH. For binary & categorical markets, this is 1 ETH. For scalar markets, this is the top end of the range set by the market creator.
+ * @property {number} minPrice Minimum price allowed for a share on a market, in ETH. For yesNo & categorical markets, this is 0 ETH. For scalar markets, this is the bottom end of the range set by the market creator.
+ * @property {number} maxPrice Maximum price allowed for a share on a market, in ETH. For yesNo & categorical markets, this is 1 ETH. For scalar markets, this is the top end of the range set by the market creator.
  * @property {string} cumulativeScale Difference between maxPrice and minPrice.
  * @property {string} author Ethereum address of the creator of the market, as a hexadecimal string.
  * @property {number} creationTime Timestamp when the Ethereum block containing the market creation was created, in seconds.
@@ -2765,12 +2765,12 @@ module.exports = getDisputeInfo;
  * @property {string} marketId Ethereum address of the Market, as a hexadecimal string.
  * @property {number|null} payout0 Payout numerator 0 of the Dispute Token’s payout set.
  * @property {number|null} payout1 Payout numerator 1 of the Dispute Token’s payout set.
- * @property {number|null} payout2 Payout numerator 2 of the Dispute Token’s payout set. (Set to null for Binary and Scalar Markets.)
- * @property {number|null} payout3 Payout numerator 3 of the Dispute Token’s payout set. (Set to null for Binary and Scalar Markets.)
- * @property {number|null} payout4 Payout numerator 4 of the Dispute Token’s payout set. (Set to null for Binary and Scalar Markets.)
- * @property {number|null} payout5 Payout numerator 5 of the Dispute Token’s payout set. (Set to null for Binary and Scalar Markets.)
- * @property {number|null} payout6 Payout numerator 6 of the Dispute Token’s payout set. (Set to null for Binary and Scalar Markets.)
- * @property {number|null} payout7 Payout numerator 7 of the Dispute Token’s payout set. (Set to null for Binary and Scalar Markets.)
+ * @property {number|null} payout2 Payout numerator 2 of the Dispute Token’s payout set. (Set to null for yesNo and Scalar Markets.)
+ * @property {number|null} payout3 Payout numerator 3 of the Dispute Token’s payout set. (Set to null for yesNo and Scalar Markets.)
+ * @property {number|null} payout4 Payout numerator 4 of the Dispute Token’s payout set. (Set to null for yesNo and Scalar Markets.)
+ * @property {number|null} payout5 Payout numerator 5 of the Dispute Token’s payout set. (Set to null for yesNo and Scalar Markets.)
+ * @property {number|null} payout6 Payout numerator 6 of the Dispute Token’s payout set. (Set to null for yesNo and Scalar Markets.)
+ * @property {number|null} payout7 Payout numerator 7 of the Dispute Token’s payout set. (Set to null for yesNo and Scalar Markets.)
  * @property {boolean|number} isInvalid Whether the Market was determined to be invalid.
  * @property {number} balance Dispute Token balance the owner has staked, in ETH.
  * @property {boolean|null} winningToken Index of the Payout Numerator that was determined to be the Market's Final Outcome.
@@ -4726,7 +4726,7 @@ module.exports = readJsonFile;
 'use strict';
 
 // generated by genversion
-module.exports = '4.12.0-2';
+module.exports = '4.12.0-6';
 },{}],149:[function(require,module,exports){
 (function (global){
 var augur = global.augur || require("./build/index");
@@ -15500,6 +15500,20 @@ module.exports={
 			"type": "function"
 		},
 		{
+			"constant": false,
+			"inputs": [],
+			"name": "getOrCreatePreviousPreviousFeeWindow",
+			"outputs": [
+				{
+					"name": "",
+					"type": "address"
+				}
+			],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
 			"constant": true,
 			"inputs": [
 				{
@@ -15535,49 +15549,6 @@ module.exports={
 			],
 			"payable": false,
 			"stateMutability": "nonpayable",
-			"type": "function"
-		},
-		{
-			"constant": false,
-			"inputs": [
-				{
-					"name": "_endTime",
-					"type": "uint256"
-				},
-				{
-					"name": "_feePerEthInWei",
-					"type": "uint256"
-				},
-				{
-					"name": "_denominationToken",
-					"type": "address"
-				},
-				{
-					"name": "_designatedReporterAddress",
-					"type": "address"
-				},
-				{
-					"name": "_topic",
-					"type": "bytes32"
-				},
-				{
-					"name": "_description",
-					"type": "string"
-				},
-				{
-					"name": "_extraInfo",
-					"type": "string"
-				}
-			],
-			"name": "createBinaryMarket",
-			"outputs": [
-				{
-					"name": "_newMarket",
-					"type": "address"
-				}
-			],
-			"payable": true,
-			"stateMutability": "payable",
 			"type": "function"
 		},
 		{
@@ -16103,6 +16074,49 @@ module.exports={
 			],
 			"payable": false,
 			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "_endTime",
+					"type": "uint256"
+				},
+				{
+					"name": "_feePerEthInWei",
+					"type": "uint256"
+				},
+				{
+					"name": "_denominationToken",
+					"type": "address"
+				},
+				{
+					"name": "_designatedReporterAddress",
+					"type": "address"
+				},
+				{
+					"name": "_topic",
+					"type": "bytes32"
+				},
+				{
+					"name": "_description",
+					"type": "string"
+				},
+				{
+					"name": "_extraInfo",
+					"type": "string"
+				}
+			],
+			"name": "createYesNoMarket",
+			"outputs": [
+				{
+					"name": "_newMarket",
+					"type": "address"
+				}
+			],
+			"payable": true,
+			"stateMutability": "payable",
 			"type": "function"
 		},
 		{
@@ -33673,7 +33687,7 @@ module.exports={
   "_args": [
     [
       "elliptic@6.4.0",
-      "/home/jack/src/augur.js"
+      "/private/tmp/augur.js"
     ]
   ],
   "_from": "elliptic@6.4.0",
@@ -33699,7 +33713,7 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_spec": "6.4.0",
-  "_where": "/home/jack/src/augur.js",
+  "_where": "/private/tmp/augur.js",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -47700,6 +47714,7 @@ HttpTransport.prototype.connect = function (callback) {
 };
 
 HttpTransport.prototype.submitRpcRequest = function (rpcObject, errorCallback) {
+  console.log(rpcObject)
   request({
     url: this.address,
     method: "POST",
