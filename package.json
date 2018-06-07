@@ -5,7 +5,8 @@
  "description": "Augur Top-Level Monorepo",
  "author": "The Augur Developers <team@augur.net>",
  "devDependencies": {
-  "lerna": "^2.11.0"
+  "lerna": "^2.11.0",
+  "mocha": "5.1.1"
  },
  "workspaces": [
   "packages/*"
