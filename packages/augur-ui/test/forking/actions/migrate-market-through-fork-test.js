@@ -1,4 +1,3 @@
-import { describe, it } from 'mocha'
 import { assert } from 'chai'
 
 import { migrateMarketThroughFork, __RewireAPI__ as ReWireModule } from 'modules/forking/actions/migrate-market-through-fork'

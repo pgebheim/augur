@@ -1,4 +1,3 @@
-import { describe, it, afterEach } from 'mocha'
 
 import testState from 'test/testState'
 import reducer from 'modules/reports/reducers/reports'

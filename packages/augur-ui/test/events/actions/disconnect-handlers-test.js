@@ -1,4 +1,3 @@
-import { describe, it } from 'mocha'
 import mockStore from 'test/mockStore'
 import { handleAugurNodeDisconnect, handleEthereumDisconnect, __RewireAPI__ as RewireDisconnectHandlers } from 'modules/events/actions/disconnect-handlers'
 import { __RewireAPI__ as RewireReInitAugur } from 'modules/app/actions/re-init-augur'

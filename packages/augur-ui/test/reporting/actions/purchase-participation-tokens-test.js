@@ -1,4 +1,3 @@
-import { describe, it, afterEach } from 'mocha'
 
 import mockStore from 'test/mockStore'
 import speedomatic from 'speedomatic'

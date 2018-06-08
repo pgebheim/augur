@@ -1,4 +1,3 @@
-import { describe, it, beforeEach, afterEach } from 'mocha'
 
 import proxyquire from 'proxyquire'
 import sinon from 'sinon'

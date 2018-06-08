@@ -1,4 +1,3 @@
-import { describe, it, beforeEach, afterEach } from 'mocha'
 
 import configureMockStore from 'redux-mock-store'
 import thunk from 'redux-thunk'

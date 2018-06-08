@@ -1,4 +1,3 @@
-import { describe, it, before } from 'mocha'
 
 import myMarketsSummaryAssertions from 'assertions/my-markets-summary'
 import sinon from 'sinon'

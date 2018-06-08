@@ -1,5 +1,4 @@
 import { syncBlockchain, __RewireAPI__ as ReWireModule } from 'modules/app/actions/sync-blockchain'
-import { describe, it, after } from 'mocha'
 
 import configureMockStore from 'redux-mock-store'
 import thunk from 'redux-thunk'

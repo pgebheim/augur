@@ -1,5 +1,4 @@
 // import { login, __RewireAPI__ as ReWireModule } from 'modules/auth/actions/login'
-// import { describe, it, beforeEach } from 'mocha'
 //
 // import sinon from 'sinon'
 // import configureMockStore from 'redux-mock-store'

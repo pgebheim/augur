@@ -1,4 +1,3 @@
-import { describe, it } from 'mocha'
 import { assert } from 'chai'
 
 import { YES_NO } from 'modules/markets/constants/market-types'

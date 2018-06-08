@@ -1,4 +1,3 @@
-import { describe, it, beforeEach } from 'mocha'
 
 import addCommas from 'utils/add-commas-to-number'
 

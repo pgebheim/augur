@@ -1,4 +1,3 @@
-import { describe, it } from 'mocha'
 import mockStore from 'test/mockStore'
 import { reInitAugur, __RewireAPI__ as RewireReInitAugur } from 'modules/app/actions/re-init-augur'
 

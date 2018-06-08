@@ -1,4 +1,3 @@
-import { describe, it } from 'mocha'
 import mockStore from 'test/mockStore'
 import { listenToUpdates, __RewireAPI__ as RewireListenToUpdates } from 'modules/events/actions/listen-to-updates'
 import { __RewireAPI__ as RewireLogHandlers } from 'modules/events/actions/log-handlers'

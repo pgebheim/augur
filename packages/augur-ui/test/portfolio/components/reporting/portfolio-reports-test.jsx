@@ -3,7 +3,6 @@
  */
 import React from 'react'
 
-import { describe, it } from 'mocha'
 import sinon from 'sinon'
 import { shallow } from 'enzyme'
 

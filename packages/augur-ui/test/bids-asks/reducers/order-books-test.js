@@ -1,4 +1,3 @@
-import { describe, it, beforeEach } from 'mocha'
 
 import testState from 'test/testState'
 import { UPDATE_ORDER_BOOK } from 'modules/bids-asks/actions/update-order-book'
